@@ -13,6 +13,8 @@ namespace Fina.Api.Handlers
         {
             try
             {
+                await Task.Delay(5000);
+
                 var category = new Category
                 {
                     UserId = request.UserId,
